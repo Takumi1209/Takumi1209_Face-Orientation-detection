@@ -1,1 +1,4 @@
-# Takumi1209_Face-Orientation-detection
+# 顔の向き検知
+顔が正面を向いているかどうかを検知する。
+- 正面を向いていたら「I Love You」
+- そっぽをむいていたら「Look At Me!」
