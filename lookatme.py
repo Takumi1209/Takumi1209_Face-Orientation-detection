@@ -78,7 +78,7 @@ while True:
         euler_angle = estimate_head_pose(shape)
 
         # 正面を向いているかどうか判定する
-        is_frontal = abs(euler_angle[1]) < 15 and abs(euler_angle[2]) < 15
+        is_frontal = abs(euler_angle[1]) < 20 and abs(euler_angle[2]) < 20
 
         # 結果を表示する
         if is_frontal:
